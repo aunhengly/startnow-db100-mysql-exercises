@@ -195,7 +195,7 @@ describe('SQL Exercises -', function () {
       gradeExercise(results[17], 137, allPaymentColumns);
     });
     it('5b. Select films with a description length between 100 and 120', () => {
-      gradeExercise(results[18], 262, 'title', 'description', 'release_year', 'total_rental_cost');
+      gradeExercise(results[18], 165, 'title', 'description', 'release_year', 'total_rental_cost');
     });
   });
 
